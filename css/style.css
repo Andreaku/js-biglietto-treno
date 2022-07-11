@@ -1,0 +1,20 @@
+body {background-color: rgb(147, 170, 233);}
+strong {text-align: right}
+
+.ticket-box {
+  min-width: 400px;
+  max-width: 600px;
+}
+
+.row.flex-column {
+  background-color: rgb(199, 42, 42);
+  border: 2px solid rgb(183, 195, 196);
+}
+
+.row.flex-column [class^="col"] {
+  padding: 10px;
+  border-bottom: 2px solid rgb(183, 195, 196);
+}
+
+.del-price {color: red;}
+.discount-price {color: green;}

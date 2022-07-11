@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>Biglietto del Treno</title>
+    </head>
+
+    <body>
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div class="col-10 col-md-8 col-lg-6 mx-auto">
+                        <div class="ticket-box p-2 my-4">
+                            <h1 class="h2 text-center py-5">Riepilogo Biglietto</h1>
+                            <div class="row flex-column p-2">
+                                <div class="col-12 d-flex justify-content-between">
+                                    <h2 class="h5">Chilometri da percorrere:</h2>
+                                    <strong id="user-km"></strong>
+                                </div>
+                                <div class="col-12 d-flex justify-content-between">
+                                    <h2 class="h5">Età del passeggero:</h2>
+                                    <strong id="user-age"></strong>
+                                </div>
+                                <div class="col-12 d-flex justify-content-between">
+                                    <h2 class="h5">Prezzo biglietto per chilometro:</h2>
+                                    <strong id="ticket-price"></strong>
+                                </div>
+                                <div class="col-12 d-flex justify-content-between">
+                                    <h2 class="h5">Sconto applicato:</h2>
+                                    <strong id="ticket-discount"></strong>
+                                </div>
+                                <div class="col-12 d-flex justify-content-between">
+                                    <h2 class="h5">Totale:</h2>
+                                    <strong id="ticket-final-price"></strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <script src="js/script.js"></script>
+
+    </body>
+
+</html>
